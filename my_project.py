@@ -31,13 +31,14 @@ class WeatherStatistics:
 
         # store 'barpress_list' and 'datetime_list' into numpy array to increase the spped of array operation
         
-        '''
-        Testing Data without loading the txt value
         self.datetime_array = np.array(datetime_list)
         self.barpress_aaray = np.array(datetime_list)
+        
+        '''
+        Testing Data without loading the txt value
+        self.datetime_array = [734503.00155093, 734503.0058912, 734503.01024306, 735753.0446875, 735753.0465162,  735753.04815972]
         '''
 
-        self.datetime_array = [734503.00155093, 734503.0058912, 734503.01024306, 735753.0446875, 735753.0465162,  735753.04815972]
         # Build the GUI
         master.title('Weather Statistics')
         w, h = master.winfo_screenwidth(), master.winfo_screenheight()
